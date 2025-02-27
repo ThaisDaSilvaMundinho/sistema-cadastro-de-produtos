@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aula de Fundamentos - Box Model</title>
+  <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+</head>
+<body>
+     <div class="container mx-auto">
+          <h3 class="text-3xl text-center py-10 text-gray-300">Aula de Fundamentos Tailwind CSS - Box Model</h3>
+
+          <!-- Wid, Height e Size-->
+           <div class="border p-5 mt-4">
+            <h3 class="text-gray-500 text-3xl pb-2">width, Height e Size</h3>
+            <!-- Conteudo que irá modificar abaixo -->
+
+            <div class="text-gray-300 bg-cyan-600">Normal</div>
+            <div class="text-gray-600 bg-cyan-600 w-20 h-24">w-20 h-24</div>
+            <div class="text-gray-600 bg-cyan-600 size-32">size-32</div>
+           </div>
+          <!--/ Wid, Height e Size-->
+
+          <!-- Cores Tailwind css-->
+           <div class="border p-5 mt-4">
+            <h3 class="text-gray-500 text-3xl pb-2">Cores Tailwind css</h3>
+            <!-- Conteudo que irá modificar abaixo -->
+
+            <div class="text-gray-200 bg-gray-900">Normal</div>
+            <div class="text-red-600">bg-red-600"</div>
+            <div class="text-yellow-400">bg-yellow-400</div>
+            <div class="text-green-300">bg-green-300</div>
+            <div class="text-cyan-400">bg-cyan-400</div>
+            <div class="text-indigo-800">bg-indigo-800</div>
+          </div>
+          <!--/ Cores Tailwind css-->
+
+          <!-- Unidades Tailwind css-->
+           <div class="border p-5 mt-4">
+            <h3 class="text-gray-500 text-3xl pb-2">Unidades Tailwind css</h3>
+            <!-- Conteudo que irá modificar abaixo -->
+
+            <div class="text-gray-300 w-24">HTML</div>
+            <div class="text-gray-300 w-1/2">CSS</div>
+
+          </div>
+          <!--/ Unidades Tailwind css-->
+
+          <!-- Padding e Margin -->
+           <div class="border p-5 mt-4">
+            <h3 class="text-gray-500 text-3xl pb-2">Padding e Margin</h3>
+            <!-- Conteudo que irá modificar abaixo -->
+
+            <div class="grid justify-start">
+              <div class=" bg-gray-300 p-8">p-8</div>
+              <div class=" bg-gray-300 py-8 mt-8 px-4">py-8 mt-8 px-4</div>
+              <div class=" bg-gray-300 pb-12 -mt-4">pb-12 -mt-4</div>
+              <div class=" bg-gray-300 mx-auto">mx-auto (centraliza)</div>
+            </div>
+
+          </div>
+          <!--/Padding e Margin -->
+
+          <!-- Border Tailwind css -->
+           <div class="border p-5 mt-4">
+            <h3 class="text-gray-500 text-3xl pb-2">Border Tailwind css</h3>
+            <!-- Conteudo que irá modificar abaixo -->
+
+            <div class="grid justify-start">
+              <div class=" bg-gray-300 p-4 mb-4 border-gray-800 border">Border</div>
+              <div class=" bg-gray-300 p-4 mb-4 border-gray-800 border-x-4">border-x-4</div>
+              <div class=" bg-gray-300 p-4 mb-4 border-gray-800 border-y-4">border-y-4</div>
+              <div class=" bg-gray-300 p-4 mb-4 border-gray-800 border-x-4 border-y-4">border-x-4 border-y4</div> 
+            </div>
+
+          </div>
+          <!--/ Border Tailwind css -->
+     </div><!-- Container Principal -->
+        
+</body>
+</html>
